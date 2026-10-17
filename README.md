@@ -188,4 +188,4 @@ Run the script in a suitable test environment before relying on its execution re
 
 ---
 
-This project is an SQL fundamentals exercise focused on database structure, data manipulation, and schema changes using Microsoft SQL Server / T-SQL.
+*This project is an SQL fundamentals exercise focused on database structure, data manipulation, and schema changes using Microsoft SQL Server / T-SQL.*
