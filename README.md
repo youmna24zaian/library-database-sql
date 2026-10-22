@@ -14,12 +14,29 @@ The project focuses on SQL fundamentals rather than a complete library managemen
 
 ## Project Visuals
 
-The repository includes four visual samples for reviewing the project:
+### Project Cover
 
-- [Project cover](images/library-database-banner.png) — project title and SQL Server context.
-- [Database schema](images/database-schema.png) — the `Categories` and `Books` tables and their relationship.
-- [SQL concepts](images/sql-concepts.png) — examples of SQL Server operations represented in the project.
-- [Query showcase](images/query-showcase.png) — selected SQL examples from the script. No live execution results are claimed because the script has not been run against a SQL Server instance in this environment.
+![Library Database SQL — Project Cover](images/library-database-banner.png)
+
+*Library Database SQL project overview and Microsoft SQL Server / T-SQL context.*
+
+### Database Schema
+
+![Database Schema — Categories and Books](images/database-schema.png)
+
+*The `Categories` and `Books` tables and their one-to-many relationship.*
+
+### SQL Concepts
+
+![SQL Concepts Overview](images/sql-concepts.png)
+
+*SQL Server operations and concepts demonstrated in the project script.*
+
+### Query Showcase
+
+![SQL Query Showcase](images/query-showcase.png)
+
+*Selected SQL examples from the script. These are illustrative examples, not live execution results; the script has not been run against a SQL Server instance in this environment.*
 
 ## Database Schema
 
