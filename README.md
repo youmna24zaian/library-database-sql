@@ -1,4 +1,4 @@
-![Library Database SQL Project Banner](images/library-database-banner.png)
+![Library Database SQL Project Cover](images/01_library_database_cover.png)
 
 # Library Database SQL
 
@@ -11,26 +11,6 @@ This project creates a database named `LibraryDB` with two related tables: `Cate
 The project focuses on SQL fundamentals rather than a complete library management application. It does not include members, loans, authentication, stored procedures, views, or application code.
 
 **Main SQL script:** [`library_database.sql`](library_database.sql)
-
-## Project Visuals
-
-### Database Schema
-
-![Database Schema — Categories and Books](images/database-schema.png)
-
-*The `Categories` and `Books` tables and their one-to-many relationship.*
-
-### SQL Concepts
-
-![SQL Concepts Overview](images/sql-concepts.png)
-
-*SQL Server operations and concepts demonstrated in the project script.*
-
-### Query Showcase
-
-![SQL Query Showcase](images/query-showcase.png)
-
-*Selected SQL examples from the script. These are illustrative examples, not live execution results; the script has not been run against a SQL Server instance in this environment.*
 
 ## Database Schema
 
@@ -64,7 +44,7 @@ The database contains two tables: `Categories` and `Books`.
 
 The following diagram illustrates the database structure and the relationship between the two tables.
 
-![Library Database Schema](images/database-schema.png)
+![Library Database Schema — Categories and Books](images/02_library_database_schema.png)
 
 ## Database Relationship
 
@@ -94,9 +74,11 @@ This project demonstrates the following SQL Server / T-SQL concepts through prac
 - **Data deletion:** `DELETE` with a `WHERE` condition.
 - **Schema modification:** `ALTER TABLE ... ADD` and `ALTER TABLE ... ALTER COLUMN`.
 
-### SQL Concepts Overview
+### SQL Script Preview
 
-![SQL Concepts Demonstrated](images/sql-concepts.png)
+![Library Database SQL Code](images/03_library_database_code.png)
+
+*An overview of the SQL script structure, including database setup and table definitions.*
 
 ## Example Queries
 
@@ -145,7 +127,7 @@ Adds the `Publisher` column and subsequently increases its maximum character len
 
 ### Query Showcase
 
-![SQL Query Examples](images/query-showcase.png)
+![Library Database SQL Query Showcase](images/04_library_database_query_showcase.png)
 
 ## Requirements
 
@@ -190,10 +172,10 @@ Run the script in a suitable test environment before relying on its execution re
 ├── README.md
 ├── library_database.sql
 └── images/
-    ├── library-database-banner.png
-    ├── database-schema.png
-    ├── sql-concepts.png
-    └── query-showcase.png
+    ├── 01_library_database_cover.png
+    ├── 02_library_database_schema.png
+    ├── 03_library_database_code.png
+    └── 04_library_database_query_showcase.png
 ```
 
 ## Skills Demonstrated
