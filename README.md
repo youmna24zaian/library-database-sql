@@ -12,6 +12,15 @@ The project focuses on SQL fundamentals rather than a complete library managemen
 
 **Main SQL script:** [`library_database.sql`](library_database.sql)
 
+## Project Visuals
+
+The repository includes four visual samples for reviewing the project:
+
+- [Project cover](images/library-database-banner.png) — project title and SQL Server context.
+- [Database schema](images/database-schema.png) — the `Categories` and `Books` tables and their relationship.
+- [SQL concepts](images/sql-concepts.png) — examples of SQL Server operations represented in the project.
+- [Query showcase](images/query-showcase.png) — selected SQL examples from the script. No live execution results are claimed because the script has not been run against a SQL Server instance in this environment.
+
 ## Database Schema
 
 The database contains two tables: `Categories` and `Books`.
