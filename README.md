@@ -14,12 +14,6 @@ The project focuses on SQL fundamentals rather than a complete library managemen
 
 ## Project Visuals
 
-### Project Cover
-
-![Library Database SQL — Project Cover](images/library-database-banner.png)
-
-*Library Database SQL project overview and Microsoft SQL Server / T-SQL context.*
-
 ### Database Schema
 
 ![Database Schema — Categories and Books](images/database-schema.png)
