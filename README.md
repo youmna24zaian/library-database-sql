@@ -12,6 +12,12 @@ The project focuses on SQL fundamentals rather than a complete library managemen
 
 **Main SQL script:** [`library_database.sql`](library_database.sql)
 
+### Project at a Glance
+
+![Library Database Project Overview](images/library-database-banner.png)
+
+*An overview of the project scope and its Microsoft SQL Server focus.*
+
 ## Database Schema
 
 The database contains two tables: `Categories` and `Books`.
@@ -46,6 +52,10 @@ The following diagram illustrates the database structure and the relationship be
 
 ![Library Database Schema — Categories and Books](images/02_library_database_schema.png)
 
+![Database Relationship Overview](images/database-schema.png)
+
+*The relationship view complements the schema diagram by highlighting how the two tables connect.*
+
 ## Database Relationship
 
 The `Categories` and `Books` tables have a one-to-many relationship.
@@ -73,6 +83,12 @@ This project demonstrates the following SQL Server / T-SQL concepts through prac
 - **Arithmetic updates:** modifying existing values using expressions.
 - **Data deletion:** `DELETE` with a `WHERE` condition.
 - **Schema modification:** `ALTER TABLE ... ADD` and `ALTER TABLE ... ALTER COLUMN`.
+
+### SQL Concepts at a Glance
+
+![SQL Concepts Overview](images/sql-concepts.png)
+
+*The main SQL Server concepts covered by the project, summarized visually.*
 
 ### SQL Script Preview
 
@@ -129,6 +145,12 @@ Adds the `Publisher` column and subsequently increases its maximum character len
 
 ![Library Database SQL Query Showcase](images/04_library_database_query_showcase.png)
 
+### Query Examples
+
+![Additional SQL Query Examples](images/query-showcase.png)
+
+*Additional query examples complement the code preview above; each visual is shown only once in this README.*
+
 ## Requirements
 
 - Microsoft SQL Server with permission to create a database.
@@ -175,7 +197,11 @@ Run the script in a suitable test environment before relying on its execution re
     ├── 01_library_database_cover.png
     ├── 02_library_database_schema.png
     ├── 03_library_database_code.png
-    └── 04_library_database_query_showcase.png
+    ├── 04_library_database_query_showcase.png
+    ├── library-database-banner.png
+    ├── database-schema.png
+    ├── sql-concepts.png
+    └── query-showcase.png
 ```
 
 ## Skills Demonstrated
